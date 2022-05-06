@@ -5,5 +5,12 @@
 
 
   tasks:
-    - name: navigate to room-backend
-      shell: "./entry.sh"
+    - name: Pull sahajv/spe_backend
+      docker_image:
+        name: sahajv/spe_backend
+        source: pull
+    - name: Create a data container
+      docker_container:
+        name: spe-backend
+        image: sahajv/spe_backend
+        ports: "80:5000"
