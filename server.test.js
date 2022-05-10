@@ -6,18 +6,17 @@ const request = require('supertest');
 import {User} from "./models/User";
 import {Room} from "./models/Room";
 import Activity from "./models/Activity.js";
-console.log(app);
 
 
 // Tested
-// describe("Get /activity", () => {
-//     test("Status Code should be 200 and type should be json list", async () => {
-//         const response = await request(app).get("/activity");
-//         console.log(response);
-//         expect(response.statusCode).toBe(200);
-//         expect(response.type).toBe("application/json");
-//     })
-// })
+describe("Get /activity", () => {
+    test("Status Code should be 200 and type should be json list", async () => {
+        const response = await request(app).get("/activity");
+        // console.log(response);
+        expect(response.statusCode).toBe(200);
+        expect(response.type).toBe("application/json");
+    })
+})
 
 // Tested
 describe("POST /activity/add", () => {
@@ -30,7 +29,7 @@ describe("POST /activity/add", () => {
                 status: "Pending",
                 createdAt: new Date()
             });
-            console.log(response);
+            // console.log(response);
             expect(response.type).toBe("application/json");
             expect(response.statusCode).toBe(201);
         })
@@ -128,7 +127,7 @@ describe("DELETE /users/delete/:id", () => {
 describe("Get /rooms", () => {
     test("Status Code should be 200 and type should be json list", async () => {
         const response = await request(app).get("/rooms");
-        console.log(response);
+        // console.log(response);
         expect(response.statusCode).toBe(200);
         expect(response.type).toBe("application/json");
     })
