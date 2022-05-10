@@ -5,6 +5,14 @@
 
 
   tasks:
+    - name: stop already running container
+      docker_container:
+        name: spe-backend
+        state: stopped
+    - name: remove container
+      docker_container:
+        name: spe-backend
+        state: absent
     - name: Pull sahajv/spe_backend
       docker_image:
         name: sahajv/spe_backend
@@ -13,4 +21,4 @@
       docker_container:
         name: spe-backend
         image: sahajv/spe_backend
-        ports: "80:5000"
+        ports: "4000:4000"

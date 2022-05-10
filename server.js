@@ -2,6 +2,8 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from 'cors';
+import { infoLogger } from './logger.js';
+import { errorLogger } from './logger.js';
 
 const app = express();
 
@@ -21,10 +23,11 @@ app.use("/rooms", roomRoutes);
 
 // const CONNECTION_URL = "mongodb+srv://RoomAllocationAppDB:RoomAllocationAppDB123@cluster0.wzasi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const CONNECTION_URL = "mongodb+srv://Sahajdb:Sahajdb08@cluster0.ashgs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-const PORT = process.env.PORT | 5000;
+const PORT = process.env.PORT | 4000;
 
 mongoose.connect(CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true})
-    .then(() => app.listen(PORT, () => console.log(`Server running on port: ${PORT}`)))
-    .catch((error) => console.log(error.message));
+    .then(() => app.listen(PORT, () => {infoLogger.info(`Server connected on port: ${PORT}`)}))
+    .catch((error) => errorLogger.error(`Error occurrent while starting server: ${error.message}`));
 
 
+export default app;
