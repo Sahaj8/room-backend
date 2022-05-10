@@ -1,0 +1,2 @@
+[2022-05-10T19:33:27.043] [ERROR] error - Request POST /users/login failed with status 401: No User found
+[2022-05-10T19:33:27.491] [ERROR] error - Request POST /rooms/add failed: Room already Exists.
