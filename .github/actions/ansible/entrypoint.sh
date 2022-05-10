@@ -2,7 +2,7 @@
 echo "Ansible Entrypoint"
 
 echo "[SPE-VM01]" >> /hosts
-echo "roomallocbackend.ddns.net" >> /hosts
+echo "20.213.234.81" >> /hosts
 
 echo "[all:vars]" >> /hosts
 echo "ansible_connection=ssh" >> /hosts
