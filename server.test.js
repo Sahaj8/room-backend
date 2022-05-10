@@ -7,7 +7,6 @@ import {User} from "./models/User";
 import {Room} from "./models/Room";
 import Activity from "./models/Activity.js";
 
-
 // Tested
 describe("Get /activity", () => {
     test("Status Code should be 200 and type should be json list", async () => {

@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "NODE_OPTIONS='--experimental-vm-modules' jest --runInBand --detectOpenHandles --forceExit"
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest --runInBand --detectOpenHandles --forceExit --testTimeout=10000"
   },
   "keywords": [],
   "author": "",
