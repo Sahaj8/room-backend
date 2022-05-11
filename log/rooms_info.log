@@ -1,0 +1,28 @@
+[2022-05-10T19:29:42.508] [INFO] info - Server connected on port: 4000
+[2022-05-10T19:32:58.517] [INFO] info - Server connected on port: 4000
+[2022-05-10T19:33:24.996] [INFO] info - Request GET /activity/
+[2022-05-10T19:33:25.515] [INFO] info - Server connected on port: 4000
+[2022-05-10T19:33:25.920] [INFO] info - Request GET /activity/ Status code 200 OK
+[2022-05-10T19:33:26.134] [INFO] info - Request POST /activity/add
+[2022-05-10T19:33:26.176] [INFO] info - Request POST /activity/add Status code 201 OK
+[2022-05-10T19:33:26.249] [INFO] info - Request DELETE /activity/delete:id
+[2022-05-10T19:33:26.287] [INFO] info - Request DELETE /activity/delete/:id Status code 201 OK
+[2022-05-10T19:33:26.320] [INFO] info - Request GET /users/list
+[2022-05-10T19:33:26.351] [INFO] info - Request GET /users/list Status 200 OK
+[2022-05-10T19:33:26.399] [INFO] info - Request POST /users/add
+[2022-05-10T19:33:26.562] [INFO] info - Request POST /users/add Status 201 OK
+[2022-05-10T19:33:26.593] [INFO] info - Request POST /users/login
+[2022-05-10T19:33:26.841] [INFO] info - Request POST /users/login
+[2022-05-10T19:33:27.089] [INFO] info - Request POST /users/update/:id
+[2022-05-10T19:33:27.153] [INFO] info - Request POST /users/update/:id Status 201 OK
+[2022-05-10T19:33:27.210] [INFO] info - Request DELETE /users/delete/:id
+[2022-05-10T19:33:27.247] [INFO] info - Request POST /users/delete/:id Status 201 OK
+[2022-05-10T19:33:27.285] [INFO] info - Request GET /rooms/
+[2022-05-10T19:33:27.320] [INFO] info - Request GET /rooms/ Status 201 OK
+[2022-05-10T19:33:27.354] [INFO] info - Request POST /rooms/add
+[2022-05-10T19:33:27.425] [INFO] info - Request POST /rooms/add Status 201 OK
+[2022-05-10T19:33:27.461] [INFO] info - Request POST /rooms/add
+[2022-05-10T19:33:27.535] [INFO] info - Request PATCH /rooms/update/:id
+[2022-05-10T19:33:27.607] [INFO] info - Request POST /rooms/update/:id Status 201 OK
+[2022-05-10T19:33:27.676] [INFO] info - Request DELETE /rooms/delete/:id
+[2022-05-10T19:33:27.710] [INFO] info - Request DELETE /rooms/delete/:id Status 201 OK
