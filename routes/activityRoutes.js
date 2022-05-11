@@ -1,4 +1,4 @@
-import express from 'express';
+import express from "express";
 // import { getUser, addUser, deleteUser, loginUser } from '../controllers/User.js';
 import {getActivityList, addActivity, updateActivity, deleteActivity} from "../controllers/Activity.js";
 

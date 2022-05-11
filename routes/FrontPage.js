@@ -1,5 +1,5 @@
-import express from 'express';
-import { getFrontPage } from '../controllers/FrontPage.js';
+import express from "express";
+import { getFrontPage } from "../controllers/FrontPage.js";
 
 const router = express.Router();
 

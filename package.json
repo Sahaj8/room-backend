@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "NODE_OPTIONS='--experimental-vm-modules' jest --runInBand --detectOpenHandles --forceExit --testTimeout=10000"
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest --runInBand --detectOpenHandles --forceExit --testTimeout=10000",
+    "lint": "eslint controllers/*.js models/*.js middleware/*.js routes/*.js --fix"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,8 @@
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "@types/supertest": "^2.0.12",
+    "eslint": "^8.15.0",
+    "eslint-plugin-react": "^7.29.4",
     "jest": "^27.5.1",
     "jest-fix-undefined": "^0.1.2",
     "supertest": "^6.2.3",

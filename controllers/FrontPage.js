@@ -1,3 +1,3 @@
 export const getFrontPage = (req, res) => {
-    res.send('It works');
-}
+	res.send("Room Allocation App: Server running.");
+};

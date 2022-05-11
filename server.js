@@ -21,7 +21,6 @@ app.use("/activity", activityRoutes);
 app.use("/users", userRoutes);
 app.use("/rooms", roomRoutes);
 
-// const CONNECTION_URL = "mongodb+srv://RoomAllocationAppDB:RoomAllocationAppDB123@cluster0.wzasi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const CONNECTION_URL = "mongodb+srv://Sahajdb:Sahajdb08@cluster0.ashgs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const PORT = process.env.PORT | 4000;
 
