@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
 const activitySchema = mongoose.Schema({
-	// To Do: Add schema related to cards that display current activities on the front page.
 	applicant: String,
 	activity: String,
 	roomNumber: String, 

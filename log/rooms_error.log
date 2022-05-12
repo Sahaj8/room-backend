@@ -1,2 +1,10 @@
 [2022-05-10T19:33:27.043] [ERROR] error - Request POST /users/login failed with status 401: No User found
 [2022-05-10T19:33:27.491] [ERROR] error - Request POST /rooms/add failed: Room already Exists.
+[2022-05-12T10:28:39.860] [ERROR] error - Request POST /users/login failed with status 401: No User found
+[2022-05-12T10:28:40.273] [ERROR] error - Request POST /rooms/add failed: Room already Exists.
+[2022-05-12T10:30:25.570] [ERROR] error - Request POST /users/login failed with status 401: No User found
+[2022-05-12T10:30:26.015] [ERROR] error - Request POST /rooms/add failed: Room already Exists.
+[2022-05-12T10:32:34.415] [ERROR] error - Request POST /users/login failed with status 401: No User found
+[2022-05-12T10:32:34.847] [ERROR] error - Request POST /rooms/add failed: Room already Exists.
+[2022-05-12T10:32:53.430] [ERROR] error - Request POST /users/login failed with status 401: No User found
+[2022-05-12T10:32:53.815] [ERROR] error - Request POST /rooms/add failed: Room already Exists.
