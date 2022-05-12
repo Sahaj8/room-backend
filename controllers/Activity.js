@@ -6,6 +6,12 @@ export const getActivityList = async (req, res) => {
 	infoLogger.info("Request GET /activity/");
 	try {
 		const activities = await Activity.find();
+		activities.sort(function(a,b){
+			// Turn your strings into dates, and then subtract them
+			// to get a value that is either negative, positive, or zero.
+			return new Date(b.startDateTime) - new Date(a.startDateTime);
+		});
+		console.log(activities);
 		infoLogger.info("Request GET /activity/ Status code 200 OK");
 		res.status(200).json(activities);
 	}

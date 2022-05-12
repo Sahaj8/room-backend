@@ -8,3 +8,10 @@
 [2022-05-12T10:32:34.847] [ERROR] error - Request POST /rooms/add failed: Room already Exists.
 [2022-05-12T10:32:53.430] [ERROR] error - Request POST /users/login failed with status 401: No User found
 [2022-05-12T10:32:53.815] [ERROR] error - Request POST /rooms/add failed: Room already Exists.
+[2022-05-12T11:24:20.417] [ERROR] error - Request POST /users/login failed with status 401: No User found
+[2022-05-12T11:24:20.831] [ERROR] error - Request POST /rooms/add failed: Room already Exists.
+[2022-05-12T11:27:20.781] [ERROR] error - Request GET /activity/ failed with status code 401: array is not defined
+[2022-05-12T11:27:21.865] [ERROR] error - Request POST /users/login failed with status 401: No User found
+[2022-05-12T11:27:22.342] [ERROR] error - Request POST /rooms/add failed: Room already Exists.
+[2022-05-12T11:27:57.433] [ERROR] error - Request POST /users/login failed with status 401: No User found
+[2022-05-12T11:27:58.028] [ERROR] error - Request POST /rooms/add failed: Room already Exists.

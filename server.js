@@ -57,7 +57,7 @@ app.use(
     })
   );
 
-const CONNECTION_URL = "mongodb+srv://Sahajdb:Sahajdb08@cluster0.ashgs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const CONNECTION_URL = process.env.Mongodb_URL;
 const PORT = process.env.PORT | 4000;
 
 mongoose.connect(CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true})
